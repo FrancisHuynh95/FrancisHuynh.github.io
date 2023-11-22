@@ -56,24 +56,17 @@
 
                 <!-- AudioDome modal -->
                 <button data-modal-target="audioDome" data-modal-toggle="audioDome"
-                class="block text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                type="button">
-                <img class="h-32 w-32 md:h-48 md:w-48 lg:h-72 lg:w-72" src="../assets/projects/audiodome.png" />
-            </button>
+                    class="block text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    type="button">
+                    <img class="h-32 w-32 md:h-48 md:w-48 lg:h-72 lg:w-72" src="../assets/projects/audiodome.png" />
+                </button>
 
-                <div class="flex flex-col items-center">
+                <button data-modal-target="keebsy" data-modal-toggle="keebsy"
+                    class="block text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    type="button">
                     <img class="h-32 w-32 md:h-48 md:w-48 lg:h-72 lg:w-72" src="../assets/projects/keebsy.png" />
-                    <p class="text-white text-justify p-5">
-                        AudioDome is inspired by Spotify. It allows creators to upload their music, and interact with
-                        the community. This was a group project created with JavaScript, React.js, Redux.js for the
-                        frontend, Python, Flask and PostgreSQL for the backend, as well as AWS to handle image and audio
-                        uploads. Users are able to upload, delete, edit, and listen to music, as well as create, update,
-                        delete, and view playlists. Once an account has been created, the user is able to edit the
-                        account, as well as delete it.
-                    </p>
-                </div>
+                </button>
             </div>
-        </div>
 
     </section>
 
@@ -146,12 +139,6 @@
 
 
 
-    <button data-modal-target="audioDome" data-modal-toggle="audioDome"
-        class="block text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        type="button">
-        <img class="h-32 w-32 md:h-48 md:w-48 lg:h-72 lg:w-72" src="../assets/projects/audiodome.png" />
-    </button>
-
     <!-- Main modal HeirCNC -->
     <div id="heirCNC" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
@@ -177,15 +164,21 @@
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        With less than a month to go before the European Union enacts new consumer privacy laws for its
-                        citizens, companies around the world are updating their terms of service agreements to comply.
+                        HeirCNC is a AirBNB clone. Users are able to create, update, delete, and view spot listings, as
+                        well as create, edit, delete, and view spot's reviews. HeirCNC is created by using JavaScript,
+                        React.js and Redux for the frontend, as well as Express.js and PostgreSQL for the backend.
                     </p>
-                    <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25
-                        and is meant to ensure a common set of data rights in the European Union. It requires
-                        organizations to notify users as soon as possible of high-risk data breaches that could
-                        personally affect them.
-                    </p>
+                </div>
+                <!-- live site and github link -->
+                <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <a href="http://www.google.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Live</button>
+                    </a>
+                    <a href="https://www.github.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="ms-3 text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Github</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -216,18 +209,23 @@
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        With less than a month to go before the European Union enacts new consumer privacy laws for its
-                        citizens, companies around the world are updating their terms of service agreements to comply.
+                        AudioDome was a group project created with JavaScript, React.js, Redux.js for the frontend, Python,Flask and PostgreSQL for the backend, as well as AWS to handle image and audio uploads. Users are able to upload, delete, edit, and listen to music, as well as create, update, delete, and view playlists. Once an account has been created, the user is able to edit the account, as well as delete it.
                     </p>
-                    <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25
-                        and is meant to ensure a common set of data rights in the European Union. It requires
-                        organizations to notify users as soon as possible of high-risk data breaches that could
-                        personally affect them.
-                    </p>
+                </div>
+                <!-- live site and github link -->
+                <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <a href="http://www.google.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Live</button>
+                    </a>
+                    <a href="https://www.github.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="ms-3 text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Github</button>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Keebsy -->
@@ -243,7 +241,7 @@
                     </h3>
                     <button type="button"
                         class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                        data-modal-hide="Keebsy">
+                        data-modal-hide="keebsy">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 14 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -255,18 +253,23 @@
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-4">
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        With less than a month to go before the European Union enacts new consumer privacy laws for its
-                        citizens, companies around the world are updating their terms of service agreements to comply.
+                        Keebsy is an online market place where a user can buy or sell custom mechancial keyboard related products. This application uses JavaScript, React.js, Redux.js for the frontend, Python, Flask and PostgreSQL for the backend, as well as AWS to handle image uploads. Signed in users are able to create, update, delete, and view product listings. They are also able to create, update, delete, and view any review of a product.
                     </p>
-                    <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25
-                        and is meant to ensure a common set of data rights in the European Union. It requires
-                        organizations to notify users as soon as possible of high-risk data breaches that could
-                        personally affect them.
-                    </p>
+                </div>
+                <!-- live site and github link -->
+                <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <a href="http://www.google.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Live</button>
+                    </a>
+                    <a href="https://www.github.com" target="blank">
+                        <button data-modal-hide="static-modal" type="button"
+                            class="ms-3 text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Github</button>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <script defer src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
